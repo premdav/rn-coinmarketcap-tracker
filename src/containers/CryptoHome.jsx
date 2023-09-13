@@ -10,7 +10,6 @@ const CryptoHome = () => {
 
     useEffect(() => {
         !cryptoData && fetchCryptoData(setCryptoData);
-        console.log('crypto', cryptoData);
     }, [cryptoData]);
 
     return (
